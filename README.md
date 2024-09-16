@@ -25,3 +25,11 @@ To run a Python script within Poetry's virtual environment, use
 ```bash
 poetry run python yourscript.py
 ```
+
+## **Environment Setup**
+
+To run the project with OpenAI API Integration, create a .env file at the root project directory and add your OPENAI API key
+```bash
+OPENAI_API_KEY=your-key
+```
+Make sure you gitignore the .env file.

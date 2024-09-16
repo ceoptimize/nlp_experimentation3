@@ -120,3 +120,12 @@ OLD/
 
 config/package_structure.json
 config/OLD/
+
+# Python-related
+__pycache__/
+*.py[cod]
+
+# Poetry-related
+.poetry/
+*.lock
+*.egg-info/
